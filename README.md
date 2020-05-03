@@ -4,7 +4,7 @@
 Based on the plasma proteomic data, we developed a new algorithm named POC-19 for identifying potential OBCs to classify COVID-19 patients, to predict severe to fatal outcome, to predict mild to severe outcome, and to predict COVID-19 patients curable from the disease, respectively. POC-19 contains three steps, including differential protein reservation (DPR) to select 112 highly ranked DEPs, candidate OBC selection (COS) to generate 1000 groups of initial OBCs, and final OBC determination (FOD) to get the protein combination with the highest area under the curve (AUC) value from the 5-fold cross-validation. In the step of FOD, a widely used machine learning algorithm, penalized logistic regression (PLR), was used for model training and parameter optimization.
 
 <p>
-	<img src="assets/The workflow of POC-19.jpg" alt="The workflow of POC-19" width="100%" height="100%">
+	<img src="Assets/The workflow of POC-19.jpg" alt="The workflow of POC-19" width="100%" height="100%">
 	<br>
 	<em>The workflow of POC-19.</em>
 </p>
