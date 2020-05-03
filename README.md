@@ -24,10 +24,10 @@ The main requirements are listed below:
 
 * Train_Classification.py
 
-The code is used to train model for the classification of COVID-19 patient classification.
+    The code is used to train model for the classification of COVID-19 patient classification.
 *  Train_Severe to fatal.py
 
-The code is used to train model for the prediction of severe to fatal outcome.
+    The code is used to train model for the prediction of severe to fatal outcome.
 * Train_Mild to severe.py
 
 The code is used to train model for the prediction of mild to severe outcome.
