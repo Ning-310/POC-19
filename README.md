@@ -30,19 +30,19 @@ The main requirements are listed below:
     The code is used to train model for the prediction of severe to fatal outcome.
 * Train_Mild to severe.py
 
-The code is used to train model for the prediction of mild to severe outcome.
+    The code is used to train model for the prediction of mild to severe outcome.
 * Train_Cured.py
 
-The code is used to train model for the prediction of COVID-19 patients curable from the disease.
+    The code is used to train model for the prediction of COVID-19 patients curable from the disease.
 * Test_Classification.py
 
-The code is used to test model for the classification of COVID-19 patient classification.
+    The code is used to test model for the classification of COVID-19 patient classification.
 * Test_Severe to fatal.py
 
-The code is used to test model for the prediction of severe to fatal outcome.
+    The code is used to test model for the prediction of severe to fatal outcome.
 * Test_Mild to severe.py
 
-The code is used to test model for the prediction of mild to severe outcome.
+    The code is used to test model for the prediction of mild to severe outcome.
 * Test_Cured.py
 
 The code is used to test model for the prediction of COVID-19 patients curable from the disease.
@@ -52,13 +52,13 @@ The code is used to test model for the prediction of COVID-19 patients curable f
 
 * Classification.model 
 
-The model is used for the classification of COVID-19 patient classification.
+    The model is used for the classification of COVID-19 patient classification.
 * Severe to fatal.model 
 
-The model is used for the prediction of severe to fatal outcome.
+    The model is used for the prediction of severe to fatal outcome.
 * Mild to severe.model 
 
-The model is used for the prediction of mild to severe outcome.
+    The model is used for the prediction of mild to severe outcome.
 * Cured.model 
 
-The model is used for the prediction of COVID-19 patients curable from the disease.
+    The model is used for the prediction of COVID-19 patients curable from the disease.
