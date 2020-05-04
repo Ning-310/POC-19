@@ -24,35 +24,35 @@ The main requirements are listed below:
 
 * Train_Classification.py
 
-    The code is used to train model for the classification of COVID-19 patient classification.
+    The code is used to train the model for classifying COVID-19 patients.
 *  Train_Severe to fatal.py
 
-    The code is used to train model for the prediction of severe to fatal outcome.
+    The code is used to train the model for predicting severe to fatal outcome.
 * Train_Mild to severe.py
 
-    The code is used to train model for the prediction of mild to severe outcome.
+    The code is used to train the model for predicting mild to severe outcome.
 * Train_Cured.py
 
-    The code is used to train model for the prediction of COVID-19 patients curable from the disease.
+    The code is used to train the model for predicting COVID-19 patients curable from the disease.
 * Test_Classification.py
 
-    The code is used to test model for the classification of COVID-19 patient classification.
+    The code is used to test the model for classifying COVID-19 patients.
 * Test_Severe to fatal.py
 
-    The code is used to test model for the prediction of severe to fatal outcome.
+    The code is used to test the model for predicting severe to fatal outcome.
 * Test_Mild to severe.py
 
-    The code is used to test model for the prediction of mild to severe outcome.
+    The code is used to test the model for predicting mild to severe outcome.
 * Test_Cured.py
 
-    The code is used to test model for the prediction of COVID-19 patients curable from the disease.
+    The code is used to test the model for predicting COVID-19 patients curable from the disease.
 
 
 ## The models in POC-19
 
 * Classification.model 
 
-    The model is used for the classification of COVID-19 patient classification.
+    The model is used for the classification of COVID-19 patient.
 * Severe to fatal.model 
 
     The model is used for the prediction of severe to fatal outcome.
