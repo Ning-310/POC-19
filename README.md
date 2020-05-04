@@ -22,10 +22,27 @@ The main requirements are listed below:
 
 ## The description of POC-19 source codes
 
+* DPR.py
+
+    The code is used to select 112 highly ranked DEPs.
+
+* FOD_Classification.py
+
+    The code is used to generate 1000 groups of initial OBCs, and get the final OBC for classifying COVID-19 patients.
+* FOD_Severe to fatal.py
+
+    The code is used to generate 1000 groups of initial OBCs, and get the final OBC for predicting severe to fatal outcome.
+* FOD_Mild to severe.py
+
+    The code is used to generate 1000 groups of initial OBCs, and get the final OBC for predicting mild to severe outcome.
+* FOD_Cured.py
+
+    The code is used to generate 1000 groups of initial OBCs, and get the final OBC for predicting COVID-19 patients curable from the disease.
+
 * Train_Classification.py
 
     The code is used to train the model for classifying COVID-19 patients.
-*  Train_Severe to fatal.py
+* Train_Severe to fatal.py
 
     The code is used to train the model for predicting severe to fatal outcome.
 * Train_Mild to severe.py
@@ -46,6 +63,10 @@ The main requirements are listed below:
 * Test_Cured.py
 
     The code is used to test the model for predicting COVID-19 patients curable from the disease.
+	
+* ROC.py
+
+    The code is used to illustrate the receiver operating characteristic (ROC) curve based on sensitivity and 1-specificity scores, and compute the AUC value.
 
 
 ## The models in POC-19
