@@ -1,4 +1,7 @@
 import matplotlib.pylab as pylab
+from sklearn.metrics import roc_auc_score
+from sklearn.metrics import roc_curve
+import matplotlib.pyplot as plt
 
 def roc(y_tests, y_test_scores):
     font = {'family': 'arial',
@@ -27,5 +30,5 @@ def roc(y_tests, y_test_scores):
     plt.ylabel('Sensitivity', font)
     plt.savefig('roc.jpg')
     plt.show()
-    
+
 roc(y_tests, y_test_scores)
