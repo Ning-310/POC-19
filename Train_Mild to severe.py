@@ -18,7 +18,7 @@ y = np.array([1 if x in indp else 0 for x in ind])
 
 def Train_fold(i,r, X_train, y_train, X_test, y_test):
     Clist = [1]
-    clf = LogisticRegressionCV(Cs=Clist, penalty='l2', fit_intercept=False, cv=5, solver='lbfgs', n_jobs=4,
+    clf = LogisticRegressionCV(Cs=Clist, penalty='l2', fit_intercept=True, cv=5, solver='lbfgs', n_jobs=4,
                                refit=True, class_weight='balanced', multi_class='ovr')
     clf.fit(X_train, y_train)
     result = []
