@@ -23,16 +23,16 @@ The main requirements are listed below:
 
 * FBD_Classification.py
 
-    The code is used to generate 1000 groups of initial OBCs, and get the final OBC for classifying COVID-19 patients.
+    The code is used to generate 1000 groups of initial biomarker combinations, and get the final biomarker combination for classifying COVID-19 patients.
 * FBD_Severe to fatal.py
 
-    The code is used to generate 1000 groups of initial OBCs, and get the final OBC for predicting severe to fatal outcome.
+    The code is used to generate 1000 groups of initial biomarker combinations, and get the final biomarker combination for predicting severe to fatal outcome.
 * FBD_Mild to severe.py
 
-    The code is used to generate 1000 groups of initial OBCs, and get the final OBC for predicting mild to severe outcome.
+    The code is used to generate 1000 groups of initial biomarker combinations, and get the final biomarker combination for predicting mild to severe outcome.
 * FBD_Cured.py
 
-    The code is used to generate 1000 groups of initial OBCs, and get the final OBC for predicting COVID-19 patients curable from the disease.
+    The code is used to generate 1000 groups of initial biomarker combinations, and get the final biomarker combination for predicting COVID-19 patients curable from the disease.
 
 * Train_Classification.py
 
