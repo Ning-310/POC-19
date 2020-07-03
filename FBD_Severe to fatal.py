@@ -15,7 +15,7 @@ indp = ["F1T1", "F2T1", "F3T1", "F4T1", "F5T1",
 indn = ["S1T1","S2T1","S3T1","S4T1","S5T1","S6T1","S7T1"]
 ind = indp + indn
 
-#COS
+#CBS
 def random_int_list(start, stop, length):
     start, stop = (int(start), int(stop)) if start <= stop else (int(stop), int(start))
     length = int(abs(length)) if length else 0
@@ -30,7 +30,7 @@ while rd.__len__()<1000:
     if rd0 not in rd:
         rd.append(rd0)
 
-#FOD
+#FBD
 for lis in rd:
     X = df.loc[lis, ind].T.values
     y = np.array([1 if x in indp else 0 for x in ind])
