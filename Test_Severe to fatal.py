@@ -4,7 +4,7 @@ import pandas as pd
 import joblib
 
 model=joblib.load("Model/Severe to fatal.model")
-df = pd.read_excel('Data/OBCs.xlsx','Severe to fatal')
+df = pd.read_excel('Data/Final biomarker combinations.xlsx','Severe to fatal')
 indp = ["F1T1", "F2T1", "F3T1", "F4T1", "F5T1",
         "F1T2", "F2T2", "F3T2", "F4T2", "F5T2",
         "F1T3", "F2T3", "F3T3", "F4T3", "F5T3",
