@@ -4,7 +4,7 @@ import pandas as pd
 import joblib
 
 model=joblib.load("Model/Classification.model")
-df = pd.read_excel('Data/OBCs.xlsx','Classification')
+df = pd.read_excel('Data/Final biomarker combinations.xlsx','Classification')
 ind1 = ["H1","H2","H3","H4","H5","H6","H7","H8"]
 ind2 = ["M1T1", "M2T1", "M3T1", "M4T1", "M5T1", "M6T1", "M7T1", "M8T1", "M9T1", "M10T1"]
 ind3 = ["S1T1", "S2T1", "S3T1", "S4T1", "S5T1", "S6T1", "S7T1" ]
