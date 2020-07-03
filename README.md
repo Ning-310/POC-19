@@ -1,6 +1,6 @@
 # POC-19
 
-**Note: To identify optimal biomarker combinations (OBCs) for accurately classifying different types of samples, we developed a machine learning-based algorithm named prioritization of OBCs for COVID-19 (POC-19). Based on the plasma proteomic data, we developed a new algorithm named POC-19 for identifying potential OBCs to classify COVID-19 patients, to predict severe to fatal outcome, to predict mild to severe outcome, and to predict COVID-19 patients curable from the disease, respectively. POC-19 contains three steps, including differential protein reservation (DPR) to select 112 highly ranked differentially expressed proteins (DEPs), candidate OBC selection (COS) to generate 1000 groups of initial OBCs, and final OBC determination (FOD) to get the protein combination with the highest area under the curve (AUC) value from the 5-fold cross-validation. In the step of FOD, a widely used machine learning algorithm, penalized logistic regression (PLR), was used for model training and parameter optimization.
+**Note: Based on the plasma proteomic data, we developed a new pipeline named POC-19 for identifying potential biomarker combinations to classify COVID-19 cases. POC-19 contains three steps, including differential protein reservation (DPR) to select 112 highly ranked DEPs, candidate biomarker selection (CBS) to generate 1000 groups of initial biomarker combinations, and final biomarker determination (FBD) to get the protein combination with the highest area under the curve (AUC) value from the 5-fold cross-validation. In the step of FBD, a widely used machine learning algorithm, penalized logistic regression (PLR), was used for model training and parameter optimization.
 
 
 ## Requirements
@@ -21,16 +21,16 @@ The main requirements are listed below:
 
     The code is used to select 112 highly ranked DEPs.
 
-* FOD_Classification.py
+* FBD_Classification.py
 
     The code is used to generate 1000 groups of initial OBCs, and get the final OBC for classifying COVID-19 patients.
-* FOD_Severe to fatal.py
+* FBD_Severe to fatal.py
 
     The code is used to generate 1000 groups of initial OBCs, and get the final OBC for predicting severe to fatal outcome.
-* FOD_Mild to severe.py
+* FBD_Mild to severe.py
 
     The code is used to generate 1000 groups of initial OBCs, and get the final OBC for predicting mild to severe outcome.
-* FOD_Cured.py
+* FBD_Cured.py
 
     The code is used to generate 1000 groups of initial OBCs, and get the final OBC for predicting COVID-19 patients curable from the disease.
 
