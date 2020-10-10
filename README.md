@@ -1,6 +1,6 @@
 # Prioritization of Optimal biomarker Combinations for COVID-19 (POC-19)
 
-**Note: Based on the plasma proteomic data of Cohort 1, we developed a new computational pipeline named Prioritization of Optimal biomarker Combinations for COVID-19 (POC-19) for identifying potential biomarker combinations to classify COVID-19 cases. POC-19 contains three steps, including differential protein reservation (DPR) to select 112 highly ranked DEPs, candidate biomarker selection (CBS) to generate 1000 groups of initial biomarker combinations, and final biomarker determination (FBD) to get the protein combination with the highest area under the curve (AUC) value from the 5-fold cross-validation. In the step of FBD, a widely used machine learning algorithm, penalized logistic regression (PLR), was used for model training and parameter optimization.
+**Note: Based on the plasma proteomic data of Cohort 1, we developed a new computational pipeline named POC-19 for identifying potential biomarker combinations to classify COVID-19 cases. POC-19 contains three steps, including differential protein reservation (DPR) to select 112 highly ranked DEPs, candidate biomarker selection (CBS) to generate 1000 groups of initial biomarker combinations, and final biomarker determination (FBD) to get the protein combination with the highest area under the curve (AUC) value from the 5-fold cross-validation. In the step of FBD, a widely used machine learning algorithm, penalized logistic regression (PLR), was used for model training and parameter optimization.
 
 
 ## Requirements
